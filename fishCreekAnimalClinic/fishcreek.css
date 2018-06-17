@@ -1,4 +1,11 @@
-﻿body {
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #F0F0F0;
+}    
+
+body {
     background-color: #FFFFFF;
     color: #003366;
     font-family: Verdana, Arial, sans-serif;
