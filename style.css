@@ -1,4 +1,4 @@
-﻿body {
+body {
     width: 400px;
     margin: 0 auto;
 }
@@ -6,11 +6,18 @@
 a {
     list-style-type:none;
     text-decoration:none;
-    font-family: arial, sans-serif;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 h2 {
-    font-family: arial, sans-serif;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 nav a:link {
