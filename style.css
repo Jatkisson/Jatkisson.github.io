@@ -1,14 +1,6 @@
 body {
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
-}
-
-a {
-    list-style-type:none;
-    text-decoration:none;
-    font-family: Arial, sans-serif;
-    background-color: #C0C0C0;
-    border-radius: 25px;
 }
 
 h1 {
@@ -18,19 +10,27 @@ h1 {
 }
 
 h2 {
-    font-family: Arial, sans-serif;
     text-align: center;
 }
 
-nav a:link {
+button {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 5px auto;
+    background-color: #C0C0C0;
+    border-radius: 15px;
+}
+
+button:link {
     color: #880000;
 }
 
-nav a:visited {
+button:visited {
     color: #880000;
 }
 
-nav a:hover {
+button:hover {
     color: #680000;
 }
 
