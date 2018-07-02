@@ -13,7 +13,7 @@ h2 {
     text-align: center;
 }
 
-button {
+a {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 10px;
@@ -22,15 +22,15 @@ button {
     border-radius: 15px;
 }
 
-button:link {
+a:link {
     color: #880000;
 }
 
-button:visited {
+a:visited {
     color: #880000;
 }
 
-button:hover {
+a:hover {
     color: #680000;
 }
 
