@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fish Creek Animal Clinic</title>
+    <link rel="stylesheet" href="fishcreek.css">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="wrapper">
+    <header>
+        <h1>Fish Creek Animal Clinic</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="askthevet.html">Ask the Vet</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Contact Fish Creek</h2>
+        <p>Required information is marked with an asterisk (*).</p>
+        <form method="post" action="https://webdevbasics.net/scripts/fishcreek.php">
+            <label for="myName">*Name: </label>
+            <input type="text" name="myName" id="myName" required="required">
+            <label for="myEmail">*E-mail: </label>
+            <input type="email" name="myEmail" id="myEmail" required="required">
+            <label for="myComments">*Comments: </label>
+            <textarea name="myComments" id="myComments" rows="2" cols="20" required="required"></textarea>
+            <input id="mySubmit" type="submit" value="Send Now">
+        </form>
+    </main>
+    <footer>
+        <small><i>Copyright &copy; 2018 Fish Creek Animal Clinic</i></small>
+        &nbsp
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                     src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                     alt="Valid CSS!" />
+            </a>
+        </p>
+
+    </footer>
+    </div>
+</body>
+</html>
