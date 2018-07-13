@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Form Validation</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.js"></script>
+        
+    </head>
+    <body>
+        <div>
+            <form id="form" method="POST" action="http://www.markmurtha.com/csis128/readform.asp" onsubmit="return validateForm()">
+            <label for="userName">Name: </label>
+            <input type="text" name="userName" id="userName" class="required">
+            <br>
+            <label for="userEmail">E-Mail Address: </label>
+            <input type="text" name="userEmail" id="userEmail" class="required email">
+            <br>
+            <input id="submit" type="submit" value"Sign Up Now">
+            </form>
+        </div>
+        <script>
+            // $(document).ready(function() {
+            //     alert("Ready for jQuery");
+            // });
+
+            function validateForm() {
+                if (document.forms[0].userName.value === "") {
+                    alert ("Please enter your name in the appropriate field.");
+                    return false;
+                } 
+
+                if (document.forms[0].userEmail.value === "") {
+                    alert ("Please enter your e-mail address in the appropriate field.");
+                    return false;
+                }
+                return true;               
+                }
+
+                $(document).ready(function() {
+                    $('form').validate();
+                });
+        </script>
+
+    </body>
+</html>
