@@ -22,3 +22,21 @@ reviewComments = [
     "James did a bad job and he should feel bad."
 ];
 
+var specials;
+
+function switchMonth(specials) {
+    var specials = document.getElementById("specials").value;
+
+    switch(specials) {
+        case "July":
+        return ("July Specials")
+            break;
+        case "August":
+        return ("August Specials")
+            break;
+        default:
+        return ("No Specials")
+        }
+    }
+
+console.log(specials);

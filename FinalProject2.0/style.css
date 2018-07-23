@@ -171,8 +171,45 @@ input, textarea {
     border-radius: 5px;
 }
 
+#name {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#email {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#address {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#requests {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
 #submit {
     margin: 1em auto;
+}
+
+#monthlySpecials {
+    width: 60%;
+    margin: 10px auto;
+}
+
+fieldset {
+    color: whitesmoke;
+}
+
+button {
+    margin: 10px;
 }
 
 #reset {

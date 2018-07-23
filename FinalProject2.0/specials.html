@@ -27,8 +27,8 @@
             <h1>Lawn Care by James Atkisson</h1>
         </header>
         <main>
-            <form method="POST" id="monthlySpecials">
-                <fieldset>
+            <form id="monthlySpecials" onsubmit="return switchMonth();">
+                <fieldset style="width: 90%; margin: 10px auto;">
                     <legend>Choose a Month to Find Certain Specials</legend>
                     <label for="specials">Select a Month</label>
                         <select name="specials" id="specials">
@@ -38,45 +38,16 @@
                           <option>October</option>
                           <option>November</option>
                         </select>
+                    <br>    
+                    <button type="submit">Check Special</button>
                 </fieldset>
-                <button type="submit">Check Special</button>
+                
             </form>    
             <h2>
-                    <script>
-                        // special()
-                        // if (document.forms[0].monthlySpecials.value == "July") {
-                        //     document.write("There is a buy one mowing, trimming, and blowing and automatically get a second for free special!")
-                        // else (document.forms[0].monthlySpecials.value == "August") {
-                        //     document.write("No special")
-                        // }
-                        var specials = $_POST['specials'];
-
-                        switch(specials) {
-                            case "July":
-                                document.write("July Specials")
-                                break;
-                            case "August":
-                                document.write("August Specials")
-                                break;
-                            default:
-                                document.write("No Specials")
-                            }
-
-                        // document.getElementById("specials").onsubmit = function special() {
-                        //     switch(document.getElementById('specials').value) {
-                        //     case "July":
-                        //         document.write("July Specials")
-                        //         break;
-                        //     case "August":
-                        //         document.write("August Specials")
-                        //         break;
-                        //     default:
-                        //         document.write("No Specials")
-                        //     }
-                        // };
-
-                    </script>
-                    </h2>
+                <script>
+                    document.write(specials)
+                </script>
+            </h2>
         </main>
         <aside>
                 <h2 style="text-decoration: underline; font-size: 2em; text-align: center;">Recent News</h2>
