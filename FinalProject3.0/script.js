@@ -12,13 +12,4 @@ var content = [
     "If you're like me and have a bed to prepare, then get in touch with me and I would be happy to help you out with the new machine."
 ];
 
-reviewNames = [
-    "Margaret",
-    "Charlotte"
-];
-
-reviewComments = [
-    "James did a great job. I would absolutely recommend him to anybody.",
-    "James did a bad job and he should feel bad."
-];
 

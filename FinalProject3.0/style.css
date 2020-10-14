@@ -48,7 +48,6 @@ header {
     grid-column: 1/8;
     margin: 0;
     background-color: #005104;
-    background-image: url(images/colorlogo.jpg);
     background-position: 30%;
     background-repeat: no-repeat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -264,7 +263,7 @@ footer a {
     color: whitesmoke;
 }
 
-.bookAService {
+.aboutMe {
     background-color: #004104a9;
     padding: 10px;
     margin: 20px auto;
@@ -279,12 +278,12 @@ footer a {
     transition: width 400ms, height 1s;
 }
 
-.bookAService:hover {
+.aboutMe:hover {
     width: 300px;
     height: 50px;
 }
 
-.bookAService a {
+.aboutMe a {
     color: whitesmoke;
     font-size: 2em;
     text-decoration: none;
